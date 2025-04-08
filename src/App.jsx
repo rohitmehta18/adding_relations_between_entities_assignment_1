@@ -1,9 +1,12 @@
-function App() {
+import React from "react";
+import DestinationContainer from "./components/DestinationContainer";
+
+const App = () => {
   return (
     <div>
-      {/* Your code here */}
+      <DestinationContainer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
